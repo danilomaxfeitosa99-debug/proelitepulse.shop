@@ -1,175 +1,45 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Történelmi Rejtélyek - A Tudás Kapuja</title>
-    <style>
-        body {
-            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-            line-height: 1.8;
-            color: #2c3e50;
-            background-color: #fdfcf0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            background-color: #fff;
-            border: 1px solid #e0d5b1;
-            padding: 50px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-        }
-        header {
-            text-align: center;
-            border-bottom: 2px solid #e0d5b1;
-            padding-bottom: 30px;
-            margin-bottom: 40px;
-        }
-        .logo {
-            font-size: 2.2em;
-            font-weight: bold;
-            color: #8e44ad;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-        .date {
-            font-family: sans-serif;
-            font-size: 0.85em;
-            color: #95a5a6;
-            margin-top: 10px;
-        }
-        h1 {
-            font-size: 2.6em;
-            line-height: 1.3;
-            color: #2c3e50;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        .hero-img {
-            width: 100%;
-            border: 8px dashed #27ae60;
-            margin-bottom: 35px;
-            cursor: pointer;
-        }
-        .cta-button {
-            display: block;
-            background: linear-gradient(to bottom, #f1c40f, #d4ac0d);
-            color: #fff;
-            text-align: center;
-            padding: 22px;
-            font-size: 1.5em;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            margin: 40px 0;
-            box-shadow: 0 6px 0 #9a7d0a;
-            text-transform: uppercase;
-        }
-        .cta-button:hover {
-            background: linear-gradient(to bottom, #d4ac0d, #b7950b);
-        }
-        .content p {
-            margin-bottom: 25px;
-            font-size: 1.2em;
-            text-align: justify;
-        }
-        .quote-box {
-            background-color: #f4f7f6;
-            border-left: 6px solid #8e44ad;
-            padding: 25px;
-            margin: 40px 0;
-            font-style: italic;
-            font-size: 1.1em;
-        }
-        .sub-img {
-            width: 70%;
-            display: block;
-            margin: 40px auto;
-            border: 5px dashed #27ae60;
-            cursor: pointer;
-        }
-        footer {
-            margin-top: 60px;
-            padding-top: 40px;
-            border-top: 2px solid #e0d5b1;
-            font-family: sans-serif;
-            font-size: 0.9em;
-            color: #7f8c8d;
-            text-align: center;
-        }
-        .disclaimer {
-            margin-bottom: 25px;
-            line-height: 1.6;
-        }
-        .footer-links a {
-            color: #2c3e50;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .company-details {
-            margin-top: 25px;
-            font-weight: bold;
-            color: #34495e;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozinha da Familia Gi LTDA</title>
+  <meta name="description" content="Pagina institucional da Cozinha da Familia Gi LTDA com identificacao empresarial, dados cadastrais e paginas legais acessiveis.">
+  <style>
+    :root { --bg:#f4f2ef; --surface:#fff; --soft:#faf9f7; --ink:#1f2933; --muted:#52606d; --line:#d9e2ec; --accent:#7a4b2c; --accent-soft:#f4e8de; --max:1120px; --r1:20px; --r2:14px; --shadow:0 8px 32px rgba(15,23,42,.06); }
+    *{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    body{margin:0;font-family:Inter,"Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(calc(100% - 32px),var(--max));margin:0 auto}
+    .site-header{position:sticky;top:0;z-index:30;background:rgba(244,242,239,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .header-shell{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:14px}
+    .mark{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:var(--accent);color:#fff;font-size:.78rem;font-weight:800;letter-spacing:.08em}
+    .brand strong,.brand span{display:block}.brand strong{font-size:1rem}.brand span{font-size:.92rem;color:var(--muted)}
+    .nav{display:flex;flex-wrap:wrap;gap:8px}.nav a{min-height:44px;display:inline-flex;align-items:center;padding:12px 14px;border-radius:12px;color:var(--muted)}
+    .hero,section,footer{padding:32px 0}.hero-panel,.card,.footer-panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r1);box-shadow:var(--shadow)}
+    .hero-panel{padding:40px;display:grid;gap:32px;background:linear-gradient(135deg,rgba(122,75,44,.07),rgba(255,255,255,0) 35%),var(--surface)}
+    .eyebrow{display:inline-flex;align-items:center;min-height:40px;padding:8px 14px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:.84rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    h1,h2,h3{margin:0;color:var(--ink);letter-spacing:-.03em} h1{margin-top:24px;font-size:clamp(32px,6vw,54px);line-height:1.2;font-weight:800;max-width:12ch} h2{font-size:clamp(24px,4vw,40px);line-height:1.25;font-weight:700;margin-bottom:24px} h3{font-size:clamp(22px,2.8vw,30px);line-height:1.35;font-weight:600;margin-bottom:16px}
+    p{margin:0;font-size:16px;color:var(--muted)} .stack>*+*{margin-top:20px}
+    .hero-grid,.grid-two,.grid-three,.footer-top,.fiscal-grid{display:grid;gap:24px}.hero-grid,.grid-two,.footer-top{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-three,.fiscal-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .hero-list,.detail-list{display:grid;gap:16px;list-style:none;padding:0;margin:0}.hero-list li,.detail,.fiscal-item{background:var(--soft);border:1px solid var(--line);border-radius:var(--r2);padding:18px 20px;color:var(--muted)}
+    .card,.footer-panel{padding:32px}.idx{width:40px;height:40px;border-radius:50%;display:inline-grid;place-items:center;margin-bottom:18px;background:var(--accent-soft);color:var(--accent);font-weight:700}
+    .detail strong,.fiscal-item strong{display:block;margin-bottom:6px;color:var(--ink);font-size:.95rem}
+    .legal-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.legal-links a{min-height:44px;display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--soft);color:var(--muted)}
+    .footer-note{margin-top:24px;padding-top:24px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+    @media (max-width:1024px){.hero-grid,.grid-two,.grid-three,.footer-top,.fiscal-grid{grid-template-columns:1fr}}
+    @media (max-width:640px){.wrap{width:min(calc(100% - 20px),var(--max))}.header-shell{flex-direction:column;align-items:flex-start}.nav{width:100%}.nav a{flex:1 1 calc(50% - 8px);justify-content:center}.hero-panel,.card,.footer-panel{padding:24px 20px}h1{max-width:none}}
+  </style>
 </head>
 <body>
-
-<div class="container">
-    <header>
-        <div class="logo">Történelmi Rejtélyek</div>
-        <div class="date">2026. május 25. | Elfeledett Tudás Rovat</div>
-    </header>
-
-    <article>
-        <h1>Az elfeledett "Arany Kód": Miért őrizték a fáraók ezt a titkot évezredeken át?</h1>
-
-        <a href="https://lp.proelitepulse.shop/preclick">
-            <img src="img/honey_ancient_hero.png" alt="Ősi mézes edény" class="hero-img">
-        </a>
-
-        <a href="https://lp.proelitepulse.shop/preclick" class="cta-button">Nézze meg a felfedezésről szóló videót</a>
-
-        <div class="content">
-            <p>A történelemkönyvek gyakran elhallgatják a legfontosabb részleteket. Régészek nemrégiben olyan tekercsekre bukkantak, amelyek egy különleges "méz-mechanizmusról" beszélnek, amelyet az ókori uralkodók használtak szellemi erejük megőrzésére.</p>
-
-            <p>Ez nem csupán egy édesítőszer volt számukra. Úgy tekintettek rá, mint az "elme üzemanyagára", amely képes volt élesen tartani a memóriát még a legidősebb korban is. A modern tudomány most kezdi kapizsgálni, miért volt igazuk.</p>
-
-            <div class="quote-box">
-                "Azt hittük, mindent tudunk az ókori táplálkozásról, de ez a specifikus enzim-kombináció, amit ebben a rituáléban találtunk, valósággal 'újrahuzalozza' az agyi kapcsolatokat. Ez a hiányzó láncszem a kognitív hanyatlás elleni küzdelemben."
-            </div>
-
-            <p>A nagyvállalatok évtizedek óta próbálják szintetizálni ezt a hatást, de a természetet nem lehet becsapni. A titok nem egy laboratóriumban rejlik, hanem egy egyszerű, 30 másodperces reggeli szokásban.</p>
-
-            <a href="https://lp.proelitepulse.shop/preclick">
-                <img src="img/honey_scroll_macro.png" alt="Mézcsepp az ősi tekercsen" class="sub-img">
-            </a>
-
-            <p>Magyarországon is egyre többen fedezik fel ezt az elfeledett módszert. Az eredmények? Tisztább gondolatok, visszatérő emlékek és egy olyan mentális frissesség, amit sokan már elveszettnek hittek.</p>
-
-            <p>Készen áll arra, hogy feltárja ezt az ősi titkot, és visszakapja elméje élességét? Egy exkluzív prezentációban mindent elmesélünk.</p>
-
-            <a href="https://lp.proelitepulse.shop/preclick" class="cta-button">Kattintson ide a titok feltárásához</a>
-        </div>
-    </article>
-
-    <footer>
-        <div class="disclaimer">
-            <strong>Jogi nyilatkozat:</strong> Az ezen az oldalon található tartalom kizárólag tájékoztató jellegű, és nem minősül orvosi tanácsadásnak. Az egyéni eredmények eltérőek lehetnek. Bármilyen új egészségügyi program megkezdése előtt konzultáljon kezelőorvosával. Ez az oldal nem áll kapcsolatban a Google Inc.-vel.
-        </div>
-        <div class="footer-links">
-            <a href="privacy.html">Adatvédelem</a> | <a href="terms.html">Felhasználási feltételek</a>
-        </div>
-        <div class="company-details">
-            Cozinha da Familia Gi LTDA<br>
-            CNPJ: 65.261.865/0001-57<br>
-            Rua Bernardo Guimaraes, 114, Anexo B, Sorocaba - SP, 18030-050
-        </div>
-    </footer>
-</div>
-<script type="text/javascript" src="https://lp.proelitepulse.shop/pretrack.js?rtkcmpid=6a14c78572f94e8fe415603a"></script>
+  <header class="site-header"><div class="wrap header-shell"><div class="brand"><div class="mark">CFG</div><div><strong>Cozinha da Familia Gi LTDA</strong><span>CNPJ 65.261.865/0001-57</span></div></div><nav class="nav" aria-label="Navegacao principal"><a href="#empresa">Empresa</a><a href="#estrutura">Estrutura</a><a href="#cadastro">Cadastro</a><a href="#legal">Paginas legais</a></nav></div></header>
+  <main>
+    <section class="hero"><div class="wrap"><div class="hero-panel"><div class="hero-grid"><div class="stack"><span class="eyebrow">Atividade empresarial</span><h1>Base institucional com identificacao empresarial clara e ambiente organizado.</h1><p>A Cozinha da Familia Gi LTDA utiliza este ambiente para apresentar sua identidade empresarial, sua localizacao cadastral e os elementos institucionais de suporte da empresa.</p></div><ul class="hero-list"><li><strong>Razao social:</strong> Cozinha da Familia Gi LTDA</li><li><strong>CNPJ:</strong> 65.261.865/0001-57</li><li><strong>Situacao cadastral:</strong> Ativa</li><li><strong>Tipo:</strong> Matriz</li></ul></div></div></div></section>
+    <section id="empresa"><div class="wrap"><div class="grid-two"><article class="card stack"><h2>Apresentacao institucional</h2><p>A empresa apresenta sua estrutura empresarial em ambiente institucional proprio, com foco em coerencia entre razao social, CNPJ, endereco cadastral e base legal do ambiente digital.</p><p>O conteudo do site tem finalidade institucional e informativa, reunindo os dados principais da pessoa juridica e seus documentos de suporte.</p></article><article class="card"><h2>Dados principais</h2><div class="detail-list"><div class="detail"><strong>Razao social</strong>Cozinha da Familia Gi LTDA</div><div class="detail"><strong>CNPJ</strong>65.261.865/0001-57</div><div class="detail"><strong>Endereco institucional</strong>Rua Bernardo Guimaraes, 114, Anexo B</div></div></article></div></div></section>
+    <section id="estrutura"><div class="wrap"><div class="grid-three"><article class="card"><div class="idx">01</div><h3>Identificacao empresarial</h3><p>Apresentacao direta da razao social, CNPJ e dados principais da empresa em ambiente unico e coerente.</p></article><article class="card"><div class="idx">02</div><h3>Base institucional</h3><p>Estrutura criada para reforcar a associacao entre empresa, endereco cadastral e presenca digital sem interposicao oculta.</p></article><article class="card"><div class="idx">03</div><h3>Paginas legais acessiveis</h3><p>Privacidade, termos, aviso legal e politica de reembolso reunidos como suporte de transparencia e organizacao.</p></article></div></div></section>
+    <section id="cadastro"><div class="wrap"><article class="card"><h2>Dados empresariais</h2><div class="fiscal-grid"><div class="fiscal-item"><strong>Razao social</strong>Cozinha da Familia Gi LTDA</div><div class="fiscal-item"><strong>CNPJ</strong>65.261.865/0001-57</div><div class="fiscal-item"><strong>Tipo</strong>Matriz</div><div class="fiscal-item"><strong>Endereco</strong>Rua Bernardo Guimaraes, 114</div><div class="fiscal-item"><strong>Complemento</strong>Anexo B</div><div class="fiscal-item"><strong>Localizacao</strong>Jardim Vergueiro, Sorocaba - SP, 18030-050</div></div></article></div></section>
+  </main>
+  <footer id="legal"><div class="wrap"><div class="footer-panel"><div class="footer-top"><div class="stack"><h2>Identificacao empresarial</h2><p>Cozinha da Familia Gi LTDA</p><p>CNPJ 65.261.865/0001-57</p><p>Rua Bernardo Guimaraes, 114, Anexo B, Jardim Vergueiro, Sorocaba - SP, 18030-050, Brasil</p></div><div class="stack"><h2>Documentos e informacoes</h2><p>Esta pagina institucional centraliza os dados empresariais principais, a identificacao da empresa e as paginas legais de suporte.</p><div class="legal-links"><a href="privacy.html">Politica de Privacidade</a><a href="terms.html">Termos de Uso</a><a href="disclaimer.html">Aviso Legal</a><a href="refund.html">Reembolso</a></div></div></div><div class="footer-note">Razao social: Cozinha da Familia Gi LTDA | CNPJ: 65.261.865/0001-57 | Endereco institucional em Sorocaba - SP</div></div></div></footer>
 </body>
 </html>
